@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className="container">
       <div className="header" style={{
         height: '45px',
         width: '80%'
@@ -19,6 +19,9 @@ function App() {
       </div>
       <div className="basetext">
         <h1>NFT<br/>PURPLE</h1>
+        <div className="ImageContainer">
+        <img src="src/img/1.png" alt="Description of image" />
+      </div>
         <p>Fuape is a collection of 1000 funny ape NFTs - <br/>unique digital collectibles living on the Ethereum<br/> blockchain.</p>
       </div>
       <div className="Note">
@@ -32,7 +35,7 @@ function App() {
         </div> 
       </div>
       <button id='Bid'>Bid on Opensea</button>
-    </>
+    </div>
   )
 }
 

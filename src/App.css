@@ -2,7 +2,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 html {
-    height: 98vh;
+    height: 130%;
 }
 body {
     background-color: #18181B;
@@ -65,7 +65,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 125px;
-
+    width: 690px;
     display: flex;
     align-items: center;
 
@@ -81,6 +81,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     color: #F4F4F5;
+    width: 690px;
 }
 .Curretbit {
     margin-top: 45px;
@@ -118,4 +119,11 @@ body {
     background-color: #18181B;
     color: #FFFFFF;
     font-family: 'Plus Jakarta Sans';
+}
+.ImageContainer {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    position: relative;
+    bottom: 300px;
 }
