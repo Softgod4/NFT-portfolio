@@ -20,8 +20,11 @@ function App() {
       <div className="basetext">
         <h1>NFT<br/>PURPLE</h1>
         <div className="ImageContainer">
-        <img src="src/img/1.png" alt="Description of image" />
-      </div>
+          <img src="src/img/1.png" alt="Description of image" id='one'/>
+          <img src="src/img/2.png" alt="Description of image" id='two'/>
+          <img src="src/img/3.png" alt="Description of image" id='three'/>
+          <img src="src/img/4.png" alt="Description of image" id='four'/>
+        </div>
         <p>Fuape is a collection of 1000 funny ape NFTs - <br/>unique digital collectibles living on the Ethereum<br/> blockchain.</p>
       </div>
       <div className="Note">
