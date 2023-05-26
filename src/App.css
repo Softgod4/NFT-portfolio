@@ -1,0 +1,121 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+html {
+    height: 98vh;
+}
+body {
+    background-color: #18181B;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.header {
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    width: auto;
+    height: 25px;
+    top: 50px;
+}
+.header img {
+    width: 150px;
+    height: 16px;
+}
+.menu {
+    margin-right: 106.6px;
+    margin-left: 106.6px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:not(:last-child) {
+    margin-right: 45.64px;
+}
+.header img {
+    position: relative;
+    top: 3.5px;
+}
+.header button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25%;
+    position: relative;
+    bottom: 13.5px;
+    width: 192.61px;
+    height: 45px;
+    background: #27272A;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.main {
+    width: 100%;
+}
+.Note {
+    display: flex;
+    width: 450px;
+}
+.basetext h1 {
+    position: relative;
+    top: 100px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 125px;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(105.44deg, #FF3337 -0.04%, #F8CA53 23.08%, #009A8F 38.7%, rgba(255, 255, 255, 0) 72.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.basetext p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F4F4F5;
+}
+.Curretbit {
+    margin-top: 45px;
+}
+.Note p {
+    color: #F4F4F5;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal; 
+    font-size: 16px;
+    line-height: 15px;
+    color: #71717A;
+}
+.Note h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.LeftNote {
+    float: left;
+}
+.RightNote {
+    float: right;
+}
+.Note div {
+    margin-right: 50px;
+}
+#Bid {
+    width: 304px;
+    height: 55px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #18181B;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+}
